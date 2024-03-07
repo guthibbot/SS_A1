@@ -1,0 +1,62 @@
+% **************************************************************
+% Hi! Edit this file for your presentation!
+% **************************************************************
+
+% ==================///==================///==================///
+% ==================/// LATEX'S STUFF
+% ==================///==================///==================///
+
+\documentclass{beamer}
+\usepackage{amsfonts,amsmath,oldgerm}
+\usepackage{listings}
+\usepackage{colortbl}
+\usepackage{svg}
+\usepackage{listings}
+\usetheme{_statale}
+\usefonttheme[onlymath]{serif}
+
+
+\setbeamertemplate{caption}[numbered]
+\newcommand{\testcolor}[1]{\colorbox{#1}{\textcolor{#1}{test}}~\texttt{#1}}
+\newcommand{\hrefcol}[2]{\textcolor{frmtxt}{\href{#1}{#2}}}
+\titlebackground*{assets/background}
+
+% ==================///==================///==================///
+% ==================/// SPLASH PAGE
+% ==================///==================///==================///
+
+\title{Open Source - An exploration}
+\subtitle{Seminar Series Presentation}
+\course{Group 18}
+%\author{Vincent Boseck{\normalfont , 2016}\\
+%Ignacio Gea Labella{\normalfont , 202303552}\\
+%Giacomo Rocca{\normalfont , 202303007}\\
+%Colja Stork{\normalfont , 201706290}\\}
+\date{March 2024}
+
+
+% ==================///==================///==================///
+% ==================/// START PRESENTATION
+% ==================///==================///==================///
+
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{positioning}
+\begin{document}
+\maketitle
+
+\input{Sections/Introduction}
+
+\input{Sections/Characteristics}
+
+\input{Sections/ProAndCon}
+
+\input{Sections/CaseStudy}
+
+\input{Sections/How}
+
+% ==================///==================///==================///
+% ==================/// END PRESENTATION
+% ==================///==================///==================///
+
+\backmatter
+\end{document}

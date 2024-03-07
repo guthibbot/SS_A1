@@ -1,0 +1,24 @@
+\section{Key Characteristics}
+
+\begin{frame}[fragile,allowframebreaks]{Transparency}
+    
+    \begin{block}{Some example code}
+        $\backslash$begin\{beamercolorbox\}[leftskip = $0$cm]\{frametitle\} \\
+            $\backslash$usebeamerfont\{frametitle\}$\backslash$insertframetitle $\backslash$$\backslash$[12pt] \\
+        $\backslash$end\{beamercolorbox\} \\
+        $\backslash$setbeamertemplate\{bibliography item\}\{$\backslash$insertbiblabel\}\\
+        $\backslash$setbeamercolor\{bibliography entry author\}\{fg=maincolor\}\\
+        $\backslash$setbeamercolor\{bibliography item\}\{fg=maincolor\}
+        $\backslash$begin\{frame\}[allowframebreaks,plain]\{References\}
+    \end{block}
+\end{frame}
+
+\automateframe{Collaboration}{
+\begin{itemize}
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    \item Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    \begin{itemize}
+        \item Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    \end{itemize}
+\end{itemize}
+}
