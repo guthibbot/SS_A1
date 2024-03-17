@@ -306,8 +306,8 @@
 
 % Automate frame with allowframebreaks and create subsections
 \newcommand{\automateframe}[2]{%
-  \subsection{#1}
-  \begin{frame}[allowframebreaks]{#1}
+  %\subsection{#1}
+  \begin{frame}{#1} %\begin{frame}[allowframebreaks]{#1}
     #2
   \end{frame}
 }
@@ -326,3 +326,16 @@
 
 % avoid numbering of frames that are breaked into multiply slides
 \setbeamertemplate{frametitle continuation}{}
+
+% Vincent: For "wrapfigures" on slides
+%\newcommand{\lenitem}[2][.7\linewidth]{\parbox[t]{#1}{\strut #2\strut}}
+
+% Vincent: For sources
+%\newcommand{\source}[1]
+%    {\begin{textblock*}
+ %       \begin{beamercolorbox}[ht=0.3cm,right]{framesource}
+  %          \usebeamerfont{framesource}\usebeamercolor[fg]{framesource} Source: {#1}
+  %      \end{beamercolorbox}
+  %  \end{textblock*}}
+
+%\usepackage[font=scriptsize]{caption}
