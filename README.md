@@ -44,7 +44,7 @@ This LaTeX Beamer template is licensed under the GNU GENERAL PUBLIC LICENSE Vers
 
 ## Credits
 
-This template was created by Group 10 but is just a modification of the work done by Giorgio Marchetti for the University of Milan (see https://www.overleaf.com/latex/templates/la-statale-universita-degli-studi-di-milano-unimi-presentation/ykkwvfdbqydr). 
+This template was created by Group 18 but is just a modification of the work done by Giorgio Marchetti for the University of Milan (see https://www.overleaf.com/latex/templates/la-statale-universita-degli-studi-di-milano-unimi-presentation/ykkwvfdbqydr). 
 Feel free to add yourself to the list of contributors if you make significant contributions to the template.
 
 ## About
