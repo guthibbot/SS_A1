@@ -56,5 +56,23 @@
 % ==================/// END PRESENTATION
 % ==================///==================///==================///
 
-\backmatter
+\begin{frame}[c]
+\centering
+\begin{minipage}{\textwidth}
+  \usebeamercolor[fg]{normal text}
+  \centering
+  \ifstrequal{#1}{notitle}{}{
+    \huge \inserttitle
+    \vspace{5mm}
+  }
+  \Large \textsl{\\Thank you}
+  \begin{figure}
+      \centering
+      \includegraphics[width=0.25\linewidth]{assets/QR-Code.png}
+  \end{figure}
+\end{minipage}
+\end{frame}
+
+
+%\backmatter
 \end{document}
