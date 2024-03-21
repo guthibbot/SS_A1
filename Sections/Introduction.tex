@@ -1,3 +1,18 @@
+% Define the color for all sections in the TOC after the title slide
+\setbeamercolor{section in toc title}{fg=toctxt, bg=toctxt}
+
+% Modify the TOC after the title slide to use the new template
+\AtBeginSection[]
+{
+    \begingroup
+    \themecolor{main}
+    \begin{frame}[allowframebreaks]{Table of Contents}
+        \tableofcontents
+    \end{frame}
+    \endgroup
+}
+
+
 \section{What is Open-Source?}
 
 \begin{frame}[fragile]{Definition of Open Source}
@@ -28,3 +43,16 @@
 \end{figure}
 }
 \end{frame}
+
+
+
+% Define sectioning and table of contents
+\AtBeginSection[]
+{
+    \begingroup
+    \themecolor{main}
+   \begin{frame}[allowframebreaks]{Table of Contents}
+       \tableofcontents[currentsection]
+    \end{frame}
+   \endgroup
+}
